@@ -1,0 +1,38 @@
+.footer {
+    width: 450px;
+    height: 100px;
+    margin: 430px 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.footer span {
+    width: 45px;
+    height: 45px;
+    margin: 0 20px 0 80px;
+    border-radius: 50%;
+    background: #222;
+    display: block;
+}
+
+.container_footer {
+    display: flex;
+}
+
+.container_footer span {
+    width: 100px;
+    height: 20px;
+    margin: 18px 5px;
+    border-radius:10px;
+    border: 1px solid #000;
+    background: #000;
+}
+
+.container_footer span:nth-child(1) {
+    background: green;
+}
+
+.container_footer span:nth-child(2) {
+    background: yellow;
+}
